@@ -1,0 +1,10 @@
+#body{
+    display: flex;
+}
+#main{
+    flex-grow: 4;
+}
+#left-ad, #right-ad{
+    flex-grow: 1;
+}
+
