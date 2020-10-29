@@ -1,0 +1,26 @@
+#team{
+  display: flex;
+  height: 33px;
+  align-items: center;
+  border-bottom: 1px solid rgba(73, 88, 103, .65);
+  color: #87a3bf;
+}
+
+#team:first-child{
+  border-top: 1px solid rgba(73, 88, 103, .65);
+}
+
+#team:hover{
+  background-color: #45515F;
+  cursor: pointer;
+}
+
+#team img{
+  height: 18px;
+  margin: 0 7px;
+}
+
+#team-rank{
+  margin-left: 7px;
+}
+
