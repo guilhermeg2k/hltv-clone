@@ -21,7 +21,7 @@
 }
 
 #event-data{
-  line-height: 12px;
+  line-height: 14px;
   color: #929a9e;
   display: flex;
   flex-direction: column;
@@ -31,4 +31,6 @@
 #event-data h4{
   font-size: 11px;
 }
+
+
 

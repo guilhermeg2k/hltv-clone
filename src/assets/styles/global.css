@@ -17,9 +17,10 @@ html{
 
 body{
     background-color: black;
-    background-image: url("https://static.hltv.org/images/retina2/perimatch/br4.jpg");
+    background-image: url("https://static.hltv.org//images/retina2/csgofast/major2/2020-2.jpg");
     background-repeat: no-repeat;
     background-position: center 46px;
+    color: #87a3bf;
 }
 
 a{

@@ -1,0 +1,26 @@
+#gallerie-photo-box{
+  line-height: 14px;
+  width: 160px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
+  background-color: rgba(45,56,68,.35);
+  transition: background ease 0.2s;
+}
+
+#gallerie-photo-box:hover{
+  cursor: pointer;
+  background-color: #45515F;
+}
+#gallerie-photo img{
+  width: 100%;
+}
+
+#gallerie h4{
+  color: hsla(200,6%,60%,.65);
+  font-size: 10px;
+  margin-bottom: 6.7px;
+}
+
+#gallerie-data{
+  padding: 0 3px;
+  text-align: center;
+}

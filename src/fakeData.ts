@@ -25,6 +25,7 @@ const teamsData = [
     logoUrl: 'https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937',
   }
 ]
+
 const eventsData = [
   {
     name: 'Blast Fall',
@@ -47,6 +48,7 @@ const eventsData = [
     logoUrl: 'https://static.hltv.org/images/eventLogos/5207.png'
   },
 ]
+
 const playerOfTheWeek = {
   name: "Martin 'stavn' Lund",
   nickName: "stavn",
@@ -60,10 +62,79 @@ const playerOfTheWeek = {
     value: "74.2%"
   }
 }
+
+const gallerie = {
+  photoUrl: 'https://img-cdn.hltv.org/gallerypicture/jLP5WCBPx8mHpgz3BJFs3t.jpg?ixlib=java-2.1.0&w=500&s=a3dbd7c5a4ef7bcab17d7febdca96727',
+  photoDescription: 'EMS One Katowice 2014 - Day 1',
+}
+
+const matches = [
+  {
+    teams: {
+      1: {
+        name: "BIG",
+        icon: "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+        mapPoints: 0,
+        roundPoints: 10,
+      },
+      2: {
+        name: "Vitality",
+        icon: "https://www.hltv.org/img/static/flags/30x20/FR.gif",
+        mapPoints: 1,
+        roundPoints: 14,
+      }
+    }
+  },
+  {
+    teams: {
+      1: {
+        name: "Illuminar",
+        icon: "https://www.hltv.org/img/static/flags/30x20/PL.gif",
+        mapPoints: 0,
+        roundPoints: 7,
+      },
+      2: {
+        name: "Sprout",
+        icon: "https://www.hltv.org/img/static/flags/30x20/DE.gif",
+        mapPoints: 0,
+        roundPoints: 11,
+      }
+    }
+  },
+  {
+    time: "15:30",
+    teams: {
+      1: {
+        name: "Complexity",
+        icon: "https://www.hltv.org/img/static/flags/30x20/EU.gif",
+      },
+      2: {
+        name: "Sprout",
+        icon: "https://www.hltv.org/img/static/flags/30x20/EU.gif",
+      }
+    }
+  },
+  {
+    time: "08:00",
+    teams: {
+      1: {
+        name: "Spirit",
+        icon: "https://www.hltv.org/img/static/flags/30x20/RU.gif",
+      },
+      2: {
+        name: "North",
+        icon: "https://www.hltv.org/img/static/flags/30x20/DK.gif",
+      }
+    }
+  }
+];
+
 const fakeData = {
   teamsData,
   eventsData,
-  playerOfTheWeek
+  playerOfTheWeek,
+  gallerie,
+  matches
 };
 
 export default fakeData;

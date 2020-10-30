@@ -5,10 +5,13 @@ import ad1 from '../../assets/images/ad1.png';
 import ad2 from '../../assets/images/ad2.png';
 import ad3 from '../../assets/images/ad3.png';
 import ad4 from '../../assets/images/ad4.png';
+import fakeData from '../../fakeData';
 import Team from './components/RankingTeam';
 import Event from './components/Events';
 import PlayerOfTheWeek from './components/PlayerOfTheWeek';
-import fakeData from '../../fakeData';
+import Gallerie from './components/Gallerie';
+import Match from './components/Match';
+
 function Home() {
   return (
     <>
@@ -90,7 +93,11 @@ function Home() {
               <h5><a href="#">RANKING</a></h5>
               <div id="teams-box">
                 {fakeData.teamsData.map(team => (
-                  <Team rank={team.rank} name={team.name} logoUrl={team.logoUrl} />
+                  <Team
+                    rank={team.rank}
+                    name={team.name}
+                    logoUrl={team.logoUrl}
+                  />
                 ))}
               </div>
               <div id="complete-ranking">
@@ -102,14 +109,38 @@ function Home() {
               <h5><a href="#">EVENTS</a></h5>
               <div id="events-box">
                 {fakeData.eventsData.map(event => (
-                  <Event name={event.name} daysToStart={event.daysToStart} logoUrl={event.logoUrl} />
+                  <Event
+                    name={event.name}
+                    daysToStart={event.daysToStart}
+                    logoUrl={event.logoUrl}
+                  />
                 ))}
-
+              </div>
+            </div>
+            <Gallerie
+              photoUrl={fakeData.gallerie.photoUrl}
+              photoDescription={fakeData.gallerie.photoDescription}
+            />
+          </aside>
+          <div id="center-content">CENTER</div>
+          <aside className="right-content">
+            <div id="today-matches">
+              <div id="today-matches-title">
+                <h4>TODAY'S MATCHES</h4>
+                <i id="star" className="hotmatch-star-selected fa fa-star"></i>
+              </div>
+              <div id="today-matches-box">
+                {fakeData.matches.map(match => (
+                  <Match
+                    teams={match.teams}
+                    time={match.time}
+                  />
+                ))}
               </div>
             </div>
           </aside>
-          <div id="center-content">CENTER</div>
-          <aside id="right-content">
+          <aside className="right-content">
+            RIGHT
           </aside>
         </div>
       </div>
