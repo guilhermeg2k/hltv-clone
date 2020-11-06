@@ -1,0 +1,33 @@
+.streamer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px ;
+  border-bottom: 1px solid #495867;
+  transition: background ease 0.2s;
+}
+.streamer:hover{
+  cursor: pointer;
+  background-color: #45515F;
+}
+.streamer:last-child{
+  border: none;
+}
+.streamer-flag{
+  width: 18px;
+  height: 12px;
+  border: 1px solid black;
+  margin-right: 3px;
+}
+.streamer-info{
+  display: flex;
+  align-items: center;
+}
+
+.streamer-info img{
+  margin: 0 2px;
+}
+
+.streamer-viewers{
+  color: #929a9e;
+}

@@ -1,37 +1,36 @@
-.match{
+.match-result{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 3px 5px;
-  border-bottom: 1px solid #495867;
   transition: background ease 0.2s;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
+  margin-bottom: 6px;
+  background-color: #2d3844;
   line-height: 1.56667;
 }
-.match:last-child{
+.match-result:last-child{
   border: none;
 }
-.match-team{
-  display: flex;
-  align-items: center;
-}
-.match-teams{
+.match-result-teams{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  overflow: hidden;
 }
-.match:hover{
+.match-result:hover{
   cursor: pointer;
   background-color: #45515F;
 }
 
-.match img{
+.match-result img{
   width: 18px;
   height: 12px;
   border: 1px solid black;
   margin-right: 3px;
 }
 
-.match-team-points{
+.match-result-team-points{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,14 +44,8 @@
   color: #c30404;
 }
 
-.match-round-points{
-  margin-right: 3px;
-}
-
-.match-time{
-  color: #929a9e;
-}
-
-.team-point{
-  font-size: 11px;
+.match-result-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

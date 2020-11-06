@@ -11,6 +11,9 @@ import Event from './components/Events';
 import PlayerOfTheWeek from './components/PlayerOfTheWeek';
 import Gallerie from './components/Gallerie';
 import Match from './components/Match';
+import MatchResult from './components/MatchResult';
+import Streamer from './components/Streamer';
+import Activity from './components/Activity';
 
 function Home() {
   return (
@@ -34,6 +37,9 @@ function Home() {
           </div>
           <div className="top-bar-link">
             <a href="#" >Galleries</a>
+          </div>
+          <div className="top-bar-link">
+            <a href="#" >Forums</a>
           </div>
           <div className="top-bar-link">
             <a href="#" >Bets</a>
@@ -138,9 +144,62 @@ function Home() {
                 ))}
               </div>
             </div>
+            <div>
+              <img className="ad" src="https://static.hltv.org//images/retina2/unikrn/third4.gif" alt="ad" />
+            </div>
+            <div>
+              <a href="#"><h5>RESULTS</h5></a>
+              <div id="match-results">
+                {fakeData.matchesResults.map(match => (
+                  <MatchResult
+                    teams={match.teams}
+                    title={match.title}
+                  />
+                ))}
+              </div>
+            </div>
+            <div>
+              <h5>STREAMS</h5>
+              <div id="streamers">
+                {fakeData.streamers.map(streamer => (
+                  <Streamer
+                    flagIcon={streamer.flagIcon}
+                    typeIcon={streamer.typeIcon}
+                    name={streamer.name}
+                    viewers={streamer.viewers} />
+                ))}
+              </div>
+            </div>
           </aside>
           <aside className="right-content">
-            RIGHT
+            <a href="#"><h5>RECENT ACTIVITY</h5></a>
+            <div>
+              {fakeData.recentActivities.map(activity => (
+                <Activity
+                  type={activity.type}
+                  title={activity.title}
+                  comments={activity.comments}
+                />
+              ))}
+              <div id="new-topic">
+                <span>Post new topic</span>
+              </div>
+            </div>
+            <div id="ad4">
+              <a href="#">
+                <img src="https://i.imgur.com/UOpA8IG.png" alt="ad4" />
+              </a>
+            </div>
+            <div>
+              <h5>LATEST REPLAYS</h5>
+              <div id="latest-replay">
+                {fakeData.latestReplays.map(replay => (
+                  <Match
+                    time={replay.time}
+                    teams={replay.teams} />
+                ))}
+              </div>
+            </div>
           </aside>
         </div>
       </div>

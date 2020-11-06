@@ -1,0 +1,34 @@
+.activity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 7px;
+  padding-left: 7px;
+  background-color: #252f3a;
+  border-bottom: 1px solid #495867;
+  transition: background ease 0.2s;
+  font-size: 11px;
+  height: 25px;
+  overflow: hidden;
+}
+.activity-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.activity:hover{
+  cursor: pointer;
+  background-color: #45515F;
+}
+.activity-comments{
+  color: #929a9e;
+}
+.community{
+  box-shadow: inset 2px 0 0 0 #ffae00;
+}
+.official{
+  box-shadow: inset 2px 0 0 0 #e63865;
+}
+.announcement{
+  box-shadow: inset 2px 0 0 0 #55a528;
+}
