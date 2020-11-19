@@ -509,6 +509,165 @@ const latestReplays = [
   },
 ]
 
+const todayNews = [
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/BR.gif',
+    title: 'mat1czera Manquit\'s ex rifler-star joins MIBR',
+    time: '1 hour ago',
+    comments: 1325
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'CS:GO Elite Series announced for Benelux teams',
+    time: 'an hour ago',
+    comments: 45
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'BLAST Premier Fall 2020 Showdown Fantasy goes live',
+    time: '4 hour ago',
+    comments: 17
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/BR.gif',
+    title: 'mat1czera departs with Manquit',
+    time: '4 hour ago',
+    comments: 856
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/DE.gif',
+    title: 'Video: syrsoN vs. NiP',
+    time: '8 hour ago',
+    comments: 156
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/BR.gif',
+    title: '[VOD] Talking FURIA\'s European campaign and future of Brazilian CS on HLTV Confirmed with arT',
+    time: '16 hour ago',
+    comments: 856
+  },
+];
+
+const yesterdayNews = [
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'BLAST Premier Fall Showdown talent announced',
+    time: 'a day ago',
+    comments: 115
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/CA.gif',
+    title: '[VOD] Online CS problems and solutions on HLTV Confirmed: Gamechanger with launders',
+    time: 'a day ago',
+    comments: 54
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/FI.gif',
+    title: 'sergej benched in ENCE; SADDYX to stand in',
+    time: 'a day ago',
+    comments: 507
+  }
+];
+
+const previousNews = [
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/BR.gif',
+    title: 'zmb to join FURIA in Serbia bootcamp',
+    time: '2 day ago',
+    comments: 71
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'BIG round out IEM Beijing-Haidian playoffs team list with win over NiP',
+    time: '2 day ago',
+    comments: 56
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'G2 eliminate mousesports to reach IEM Beijing-Haidian quarter-finals',
+    time: '2 day ago',
+    comments: 97
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/DE.gif',
+    title: 'GODSENT bench kRYSTAL',
+    time: '3 day ago',
+    comments: 343
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/NL.gif',
+    title: 'Video: chrisJ vs. Astralis',
+    time: '3 day ago',
+    comments: 79
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/DK.gif',
+    title: 'Astralis secure IEM Beijing-Haidian playoffs spot with victory over mousesports',
+    time: '4 day ago',
+    comments: 77
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/US.gif',
+    title: 'ex-Cloud9 to retain oSee; round out roster with Infinite',
+    time: '5 day ago',
+    comments: 103
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/BR.gif',
+    title: 'MIBR defeat Envy at Flashpoint 2',
+    time: '5 day ago',
+    comments: 79
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'Nine to Five 6 Fantasy live with prizes',
+    time: '5 day ago',
+    comments: 11
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'Astralis coast past ENCE in IEM Beijing-Haidian',
+    time: '5 day ago',
+    comments: 67
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/SE.gif',
+    title: 'THREAT signs new deal with NiP',
+    time: '5 day ago',
+    comments: 56
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'BIG move past forZe; advance to Flashpoint 2 playoffs',
+    time: '6 day ago',
+    comments: 16
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'NiP ease past G2 in IEM Beijing-Haidian',
+    time: '6 day ago',
+    comments: 97
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'Gen.G upset OG in Flashpoint 2 Group C opening match',
+    time: '6 day ago',
+    comments: 89
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'Virtus.pro spoil new-look Cloud9 debut',
+    time: '6 day ago',
+    comments: 165
+  },
+  {
+    flagUrl: 'https://www.hltv.org/img/static/flags/30x20/EU.gif',
+    title: 'NAVI eliminate Spirit from IEM Beijing-Haidian to clinch playoff spot',
+    time: '6 day ago',
+    comments: 35
+  },
+];
+
 const fakeData = {
   teamsData,
   eventsData,
@@ -519,6 +678,9 @@ const fakeData = {
   streamers,
   recentActivities,
   latestReplays,
+  todayNews,
+  yesterdayNews,
+  previousNews
 };
 
 export default fakeData;

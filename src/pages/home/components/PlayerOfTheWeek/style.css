@@ -46,8 +46,8 @@
 	position: absolute;
 	top: 50%;
 	left: -16px;
-	transform: translateY(-50%);
-
+  transform: translateY(-50%);
+  opacity: 0.2 !important;
 	width: 80px;
 	height: 80px;
 	z-index: -2;

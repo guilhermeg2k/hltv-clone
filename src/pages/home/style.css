@@ -8,7 +8,8 @@
 	font-size: 14px;
 	color: rgb(146, 154, 158);
 	font-weight: 400;
-	font-family: Open Sans,sans-serif;
+  font-family: Open Sans,sans-serif;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
 }
 
 #links{
@@ -94,7 +95,8 @@
 	display:flex;
 	align-items: center;
 	font-weight: 800;
-	font-size: 15px;
+  font-size: 15px;
+  color: #a2a2a2;
 }
 
 #user-bell-envelope{
@@ -104,7 +106,7 @@
 	border-left: 1px solid rgba(73, 88, 103, .65);
 	border-right: 1px solid rgba(73, 88, 103, .65);
 	padding:0 10px;
-	color: rgb(146, 154, 158);
+	color: #a2a2a2;
 	cursor: pointer;
 	height: 23px;
 }
@@ -175,7 +177,13 @@ h5{
   color: hsla(200,6%,60%,.65);
   margin-bottom: 6.7px;
 }
-
+h3{
+  margin: 6px 0 6px;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #929a9e;
+}
 #teams-box{
   background-color:rgba(45,56,68,.35);
 }
@@ -258,4 +266,91 @@ h5{
 
 #latest-replay{
   background-color: #2d3844;
+}
+
+#main-event{
+  display: flex;
+  height: 70px;
+  background-color: #2e3843;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
+}
+
+#main-event-logo{
+  height: 100%;
+  padding: 5px;
+  background: radial-gradient(ellipse at center,hsla(0,0%,100%,.1) 0,hsla(0,0%,100%,0) 80%);
+}
+
+#main-event-logo img{
+  width:60px;
+}
+
+#main-event-title{
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  top: 5px;
+}
+
+#main-event-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#main-event-links{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px 9px;
+}
+.main-event-link{
+  background-color: #435971;
+  font-weight: 700;
+  font-size: 14px;
+  transition: .2s ease;
+}
+
+.main-event-link a{
+  color: white;
+  padding: 2px 14px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
+}
+
+.main-event-link:hover{
+  cursor: pointer;
+  background-color: #59728E;
+}
+
+#main-news{
+  max-width: 100%;
+}
+
+#main-news img{
+  max-width: 100%;
+  object-fit: cover;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
+}
+
+#more-news{
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  color: #87a3bf;
+  background-color: #2d3844;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
+  cursor: pointer;
+
+  margin-top: 10px;
+}
+
+#more-news:hover{
+  transition: .2s ease;
+  background-color: #45515F;
 }

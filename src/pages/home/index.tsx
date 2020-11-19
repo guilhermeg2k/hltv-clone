@@ -14,6 +14,7 @@ import Match from './components/Match';
 import MatchResult from './components/MatchResult';
 import Streamer from './components/Streamer';
 import Activity from './components/Activity';
+import News from './components/News';
 
 function Home() {
   return (
@@ -128,7 +129,78 @@ function Home() {
               photoDescription={fakeData.gallerie.photoDescription}
             />
           </aside>
-          <div id="center-content">CENTER</div>
+          <div id="center-content">
+            <div id="main-event">
+              <div id="main-event-logo">
+                <img src="https://static.hltv.org/images/eventLogos/5524.png" alt="main event logo" />
+              </div>
+              <div id="main-event-info">
+                <span id="main-event-title">IEM Beijing EU coverage hub</span>
+                <div id="main-event-links">
+                  <div className="main-event-link">
+                    <a href="#">
+                      OVERVIEW
+                    </a>
+                  </div>
+                  <div className="main-event-link">
+                    <a href="#">
+                      MATCHES
+                    </a>
+                  </div>
+                  <div className="main-event-link">
+                    <a href="#">
+                      RESULTS
+                    </a>
+                  </div>
+                  <div className="main-event-link">
+                    <a href="#">
+                      STATS
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div id="main-news">
+              <img src="https://img-cdn.hltv.org/gallerypicture/Wwm-EbCWqTTbul6hmuUcE2.png?ixlib=java-2.1.0&s=04cafc0dc764724e9c2b46c11fded8de" alt="main notice" />
+            </div>
+            <h3>Today's news</h3>
+            <div>
+              {fakeData.todayNews.map(news => (
+                <News
+                  flagUrl={news.flagUrl}
+                  title={news.title}
+                  time={news.time}
+                  comments={news.comments}
+                />
+              ))}
+            </div>
+            <h3>Yesterday's news</h3>
+            <div>
+              {fakeData.yesterdayNews.map(news => (
+                <News
+                  flagUrl={news.flagUrl}
+                  title={news.title}
+                  time={news.time}
+                  comments={news.comments}
+                />
+              ))}
+            </div>
+            <h3>Previous news</h3>
+            <div>
+              {fakeData.previousNews.map(news => (
+                <News
+                  flagUrl={news.flagUrl}
+                  title={news.title}
+                  time={news.time}
+                  comments={news.comments}
+                />
+              ))}
+            </div>
+            <div id="more-news">
+              <a href="#">More News</a>
+            </div>
+          </div>
           <aside className="right-content">
             <div id="today-matches">
               <div id="today-matches-title">
