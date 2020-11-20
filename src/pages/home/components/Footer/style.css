@@ -1,0 +1,149 @@
+#page-footer-wraper{
+  margin: 0 auto;
+  background-color: #2d3844;
+  border-top: 1px solid #495867;
+  position: relative;
+  top: 46px;
+}
+
+#page-footer{
+  padding-top: 8px;
+  font-size: 12px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#page-footer h2{
+  font-weight: 700;
+  font-size: 14px;
+  color: #929a9e;
+}
+
+#page-footer span{
+  color: rgba(147, 155, 159, 0.65);
+}
+
+#merch-app{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(73,88,103,.65);
+}
+
+#hltv-merchandise{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 12px 12px;
+}
+
+#hltv-merchandise img{
+  height: 91px;
+  margin-left: 82px;
+}
+
+#merch-buy-btn{
+  width: 130px;
+  height: 32px;
+  background-color: #435971;
+  padding: 0 16px;
+  border-radius: 4px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+#merch-buy-btn:hover{
+  background-color: #59728E;
+}
+#merch-buy-btn span{
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+
+}
+
+#hltv-app{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hltv-app > img{
+  height: 91px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 22px;
+}
+
+#app-downloads{
+  padding-top: 8px;
+}
+
+#app-downloads img{
+  max-height: 40px;
+  cursor: pointer;
+}
+
+#app-downloads #playStore{
+  margin-left: 16px;
+}
+
+.footer-links{
+  height: 73px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(146, 154, 158);
+  transition: .2s ease;
+  font-size: 12px;
+}
+
+.footer-links a:hover{
+  color: #7D96B1;
+}
+
+#media-icon{
+  font-size: 14px;
+  margin: 0 5px;
+  transition: ease  .2s;
+}
+
+#media-icon:hover{
+  color: #7D96B1;
+  cursor: pointer;
+}
+
+#hltv-mark{
+  color: rgb(146, 154, 158) !important;
+}
+#gamble-aware{
+  display:flex;
+  align-items: center;
+  padding: 8px 10px;
+  color: rgb(146, 154, 158) !important;
+  border-top: 1px solid #495867;
+  margin-top: 8px;
+}
+#gamble-aware span{
+  color: rgb(146, 154, 158) !important;
+}
+#gamble-aware img {
+  height: 18px;
+  margin-right: 8px;
+  filter: invert(100%);
+  opacity: .5;
+}
+#gamble-aware img:last-child {
+  height: 14px;
+  margin: 0 8px;
+  filter: invert(100%);
+  opacity: .5;
+}
