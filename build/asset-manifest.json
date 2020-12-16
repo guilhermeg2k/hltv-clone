@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c5fac50.chunk.css",
+    "main.js": "/static/js/main.2ed96669.chunk.js",
+    "main.js.map": "/static/js/main.2ed96669.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aef01254.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aef01254.js.map",
+    "static/js/2.d7fe355e.chunk.js": "/static/js/2.d7fe355e.chunk.js",
+    "static/js/2.d7fe355e.chunk.js.map": "/static/js/2.d7fe355e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4c5fac50.chunk.css.map": "/static/css/main.4c5fac50.chunk.css.map",
+    "static/js/2.d7fe355e.chunk.js.LICENSE.txt": "/static/js/2.d7fe355e.chunk.js.LICENSE.txt",
+    "static/media/ad1.26c45f40.png": "/static/media/ad1.26c45f40.png",
+    "static/media/ad2.49574bfa.png": "/static/media/ad2.49574bfa.png",
+    "static/media/ad3.16929d1f.png": "/static/media/ad3.16929d1f.png",
+    "static/media/ad4.fb18e4f3.png": "/static/media/ad4.fb18e4f3.png",
+    "static/media/app.5f596c48.png": "/static/media/app.5f596c48.png",
+    "static/media/appleStore.8c4986ee.svg": "/static/media/appleStore.8c4986ee.svg",
+    "static/media/hltv_shirt.5cc077b9.png": "/static/media/hltv_shirt.5cc077b9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aef01254.js",
+    "static/js/2.d7fe355e.chunk.js",
+    "static/css/main.4c5fac50.chunk.css",
+    "static/js/main.2ed96669.chunk.js"
+  ]
+}
